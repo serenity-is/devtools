@@ -59,17 +59,6 @@ pnpm run dev:chromium
 | `pnpm run build` | Build for production |
 | `pnpm run watch` | Development mode with hot reload |
 | `pnpm run dev:chromium` | Run in Chromium with web-ext |
-| `pnpm run dev:firefox` | Run in Firefox with web-ext |
 | `pnpm run lint` | Run ESLint |
 | `pnpm run check` | TypeScript type checking |
 
-## Tech Stack
-
-- **Bundler**: Parcel
-- **UI**: React 19
-- **Styling**: Tailwind CSS v4
-- **Language**: TypeScript
-
-## License
-
-MIT
