@@ -1,6 +1,6 @@
 # Serenity Developer Tools
 
-A Chrome/Firefox DevTools extension for inspecting and debugging [Serenity](https://serenity.is/) applications.
+A Chromium DevTools extension for inspecting and debugging [Serenity](https://serenity.is/) applications.
 
 ![Serenity DevTools](src/devtools/devtools.png)
 
