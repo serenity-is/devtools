@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+    prefers-color-scheme: dark;
+    color-scheme: dark;
+}
+
+body, html {
+    @apply h-screen w-full overflow-hidden;
+    background-color: #282828;
+    color: #e3e3e3;
+    margin: 0;
+}
+
+.widget-item {
+    @apply p-1 cursor-pointer select-none hover:bg-gray-600 text-gray-300 hover:text-white;
+}
+
+.widget-item.active {
+    @apply bg-blue-900 text-white;
+}
+
+.widget-item.active-child {
+    @apply bg-blue-950 text-gray-200 hover:bg-blue-900;
+}
+
+#root {
+    @apply h-screen flex flex-col;
+}

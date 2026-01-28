@@ -1,0 +1,59 @@
+{
+    "manifest_version": 3,
+    "name": "Serenity Developer Tools",
+    "description": "Developer tools for inspecting and debugging Serenity framework widgets, properties, and DOM elements.",
+    "version": "0.0.0.1",
+    "icons": {
+        "16": "devtools/devtools.png",
+        "48": "devtools/devtools.png",
+        "128": "devtools/devtools.png"
+    },
+    "permissions": [
+        "tabs",
+        "scripting",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.ts",
+        "type": "module"
+    },
+    "devtools_page": "devtools/devtools.html",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content-script.ts"
+            ],
+            "run_at": "document_end",
+            "all_frames": false
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "window-script.ts"
+            ],
+            "run_at": "document_end",
+            "world": "MAIN"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "devtools/devtools.png",
+                "devtools/devtools.html",
+                "devtools/panel/panel.html"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
