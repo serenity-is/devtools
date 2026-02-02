@@ -11,7 +11,7 @@ A Chromium DevTools extension for inspecting and debugging [Serenity](https://se
 - Property Viewer: View widget properties, options, and state
 - DOM Highlighting: Highlight DOM elements associated with widgets
 - Scroll Into View: Quickly navigate to widget elements in the page
-- View Source: Instantly inspect the source code for widget constructors and methods.
+- View Source: Instantly inspect the source code for widget constructors and methods
 
 ## Installation
 
