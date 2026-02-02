@@ -6,11 +6,11 @@ A Chromium DevTools extension for inspecting and debugging [Serenity](https://se
 
 ## Features
 
-- Widget Inspector - Browse and inspect Serenity widgets in your application
-- Element Picker - Click on elements to find their corresponding widget
-- Property Viewer - View widget properties, options, and state
-- DOM Highlighting - Highlight DOM elements associated with widgets
-- Scroll Into View - Quickly navigate to widget elements in the page
+- Widget Inspector: Browse and inspect Serenity widgets in your application
+- Element Picker: Click on elements to find their corresponding widget
+- Property Viewer: View widget properties, options, and state
+- DOM Highlighting: Highlight DOM elements associated with widgets
+- Scroll Into View: Quickly navigate to widget elements in the page
 - View Source: Instantly inspect the source code for widget constructors and methods.
 
 ## Installation
